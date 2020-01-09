@@ -1,0 +1,138 @@
+
+
+.wrap{
+    text-align: center;
+    background-image: url(../img/01-iphone-11-pro-and-iphone-11-max.jpg);
+    min-height: 500px;
+    background-size: cover;
+}
+.text{
+    padding-top:10%;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-right: auto;
+    margin-left: auto;  
+    max-width: 500px;
+    color: whitesmoke;
+}
+
+.world{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.separacion{
+    width: auto;
+    height: 20px;
+    background-color: rgb(40, 56, 85);
+}
+
+
+.columns{
+    column-count: 2;
+    display: inline-flex;
+    background-color: rgb(40, 56, 85);
+    width: 100%;
+}
+
+.video1{
+    margin-left: 7%;
+}
+.video2{
+    margin-left: 15%;
+}
+.texto1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 10%;
+    margin-left: 15%;
+}
+.texto2{
+    font-size: 14px;
+    font-weight: bolder;
+    font-style: italic;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.ask{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(40, 56, 85);
+    text-align: center; 
+    margin-top: 30px;
+}
+.columns2{
+    column-count: 3;
+    width: 100%;
+    display: inline-flex;
+    max-height: 500px;
+    margin-left: 175px;
+    column-span: all;
+    margin-bottom: 7%;
+}
+
+.columntext{
+    width: 150px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 25%;
+    background-color: rgb(40, 56, 85);
+    font-size: 14px;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+@media(max-width:800px){
+    .columns{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 10%;
+    }
+    .columns2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 10%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    .columntext{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 3%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    .video1{
+        width: 300px;
+        margin: 0;
+        padding-top: 10%;
+    }
+    .video2{
+        width: 300px;
+        margin: 0;
+        padding-top: 10%;
+    }
+    .photo1{
+        width: 230px;
+        margin:0;
+    }
+    .photo2{
+        width: 250px;
+        margin:0;
+    }
+    .photo3{
+        width: 220px;
+        margin:0;
+    }
+
+}

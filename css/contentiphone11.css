@@ -1,0 +1,137 @@
+.wrap2{
+    text-align: center;
+    background-image: url(../img/apple-iphone-11-4.jpg);
+    min-height: 500px;
+    background-size: cover;
+}
+
+.textiphone11{
+    padding-top:10%;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-right: auto;
+    margin-left: auto;  
+    max-width: 500px;
+    color:  whitesmoke;
+}
+.columns3{
+    column-count: 2;
+    width: 100%;
+    display: inline-flex;
+}
+.iphone11{
+    font-size: 75px;
+    font-weight: bolder;
+    color: rgb(40, 56, 85);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.imgiphone{
+    margin-left: 20%;
+    padding-top: 0%;
+}
+.separacion{
+    width: auto;
+    height: 20px;
+    background-color: rgb(40, 56, 85);
+}
+
+.columns4{
+    column-count: 2;
+    column-width: 200px;
+    column-gap: 60px;
+    height: 200px;
+    background-color:rgb(40, 56, 85);
+    display: inline-block;
+    
+}
+.titlecolumn4{
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-left: 10%;
+    padding-top: 10%;
+    text-align: center;
+}
+.subtitlecolumn4{
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.columns5{
+    column-count: 2;
+    column-width: 200px;
+    column-gap: 60px;
+    height: 200px;
+    display: inline-block;
+
+}
+.titlecolumn5{
+    font-size: 30px;
+    color: rgb(40, 56, 85);
+    font-weight: bolder;
+    margin-left: 0%;
+    text-align: center;
+    padding-top: 10%;
+}
+.subtitlecolumn5{
+    font-size: 15px;
+    color: rgb(40, 56, 85);
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-right: 15%;
+    text-align: center;
+    margin-top: 10%;
+}
+@media(max-width:800px){
+    .wrap2{
+        background-position: center;
+    }
+    .columns3{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 10%;
+    }
+    .columns4{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 10%;
+    }
+    .columns5{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 10%;
+    }
+    .subtitlecolumn4{
+        margin-right: 15%;
+        margin-left: 10%;
+    }
+    .titlecolumn4{
+        margin-right: 10%;
+    }
+
+}
+
+.red{
+    color: red;
+}
+.purple{
+    color: purple;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.black{
+    color: black;
+}

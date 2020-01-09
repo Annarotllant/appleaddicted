@@ -1,0 +1,43 @@
+.columnsbuy{
+    column-count: 2;
+    column-width: 200px;
+    column-gap: 60px;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+}
+.photo{
+    margin-left: 40%;
+}
+.type{
+    font-size: 30px;
+    color: rgb(40, 56, 85);
+    font-weight: bolder;
+    margin-left: 0%;
+    text-align: center;
+}
+.price{
+    font-size: 20px;
+    color: rgb(40, 56, 85);
+    font-weight: bolder;
+    margin-right: 50%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+@media(max-width:800px){
+    .columnsbuy{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 10%;
+    }
+    .photo{
+        margin-left: 30%;
+    }
+    .price{
+        margin-left: 10%;
+        margin-right: 0;
+    }
+
+}
